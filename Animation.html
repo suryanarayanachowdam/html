@@ -1,0 +1,32 @@
+<html>
+<style>
+div{
+height: 100px;
+width: 100px;
+color: green
+transition: linear;
+animation-name: slide;
+animation-delay: 2ms;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-timing-function: ease-in;
+transition: linear1s;
+}
+div:hover{transform:translatex(100px);}
+@keyframes slide{
+50%{
+height: 150px;
+width: 150px;
+background-color:blue;
+}
+100%{
+height: 200px;
+width: 200px;
+background-color:purple;
+}
+}
+</style>
+<body>
+<div>Surya</div>
+</body>
+</html>
